@@ -1,6 +1,9 @@
+import { computeHeadingLevel } from "@testing-library/react";
+import { Button } from './components/Button'
+
 function App() {
   return (
-    <h1>Hello NLW!</h1>
+    <Button />
   );
 }
 
