@@ -74,7 +74,7 @@ a {
     font-size: 1rem;
 }
 
-.experience-bar-div {
+.experience-bar > div {
     /* Set the max width to be equal of container width*/
     flex:1;
     height: 4px;
@@ -85,10 +85,10 @@ a {
     position: relative;
 }
 
-.experience-bar-div-div {
+.experience-bar > div > div {
     height: 4px;
     border-radius: 4px;
-    color: var(--green);
+    background: var(--green);
 }
 
 .span-current-experience {
